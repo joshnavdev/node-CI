@@ -2,7 +2,7 @@
 ssh navarro@68.183.109.240 <<EOF
  cd ~/node-CI
  git pull
- npm install — production
+ yarn install —-production
  pm2 restart all
  exit
 EOF
